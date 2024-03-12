@@ -25,3 +25,9 @@ localhost:3000/api/seed
 ```
 
 7. Levantar el proyecto **yarn start:dev**
+
+## Documentación
+
+1. Documentación de swagger: **http://localhost:3000/api**
+
+2. Documentación de postman: **https://documenter.getpostman.com/view/32837325/2sA2xjyWMM**
