@@ -7,6 +7,7 @@ import { ProductsModule } from './products/products.module';
 import { SeedModule } from './seed/seed.module';
 import { FilesModule } from './files/files.module';
 import { join } from 'path';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import { join } from 'path';
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '../..', 'public'),
     }),
+    AuthModule,
   ],
   controllers: [],
   providers: [],
